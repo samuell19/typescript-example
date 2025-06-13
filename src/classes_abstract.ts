@@ -39,6 +39,6 @@ export class Bicicleta extends Autonomia {
         this.tempo = tempo;
     }
     calcular_autonomia(): number {
-        return this.distancia / this.tempo;
+        return this.distancia * this.tempo;
     }
 }
