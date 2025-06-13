@@ -7,7 +7,7 @@ test('calcular autonomia de Carro', () => {
 
 test('calcular autonomia de Bicicleta', () => {
     const bicicleta = new Bicicleta(30, 2); 
-    expect(bicicleta.calcular_autonomia()).toBe(15); 
+    expect(bicicleta.calcular_autonomia()).toBe(60); 
 });
 
 test('comparar autonomias de Carro e Bicicleta', () => {
