@@ -3,9 +3,9 @@ interface Valor_total{
 }
 
 export class Produto implements Valor_total {
-    nome: string;
-    preco: number;
-    quantidade: number;
+    private nome: string;
+    private preco: number;
+    private quantidade: number;
 
     constructor(nome: string, preco: number, quantidade: number) {
         this.nome = nome;
@@ -19,10 +19,10 @@ export class Produto implements Valor_total {
 }
 
 export class Produto_online implements Valor_total {
-    nome: string;
-    preco: number;
-    quantidade: number;
-    frete: number;
+    private nome: string;
+    private preco: number;
+    private quantidade: number;
+    private frete: number;
     constructor(nome: string, preco: number, quantidade: number, frete: number) {
         this.nome = nome;
         this.preco = preco;

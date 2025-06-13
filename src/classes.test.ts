@@ -7,5 +7,4 @@ test("calcular total de Produto", () =>{
 
 test("calcular total de Produto_online", () =>{
     const produtoOnline = new Produto_online("Smartphone", 1500, 3, 50);
-    produtoOnline.frete = 50;
     expect(produtoOnline.calcular_total()).toBe(4650);})
